@@ -1,0 +1,194 @@
+[
+  {
+    "id": "oak_planks",
+    "name": "Oak Planks",
+    "category": "building",
+    "type": "shapeless",
+    "grid": [
+      "minecraft:oak_log",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "result": {
+      "item": "minecraft:oak_planks",
+      "count": 4
+    },
+    "verified": false,
+    "source": "seed entry written from memory - NOT yet verified; replace via import:vanilla",
+    "notes": "One log makes four planks. Also craftable in the 2x2 inventory grid."
+  },
+  {
+    "id": "stick",
+    "name": "Stick",
+    "category": "misc",
+    "type": "shaped",
+    "grid": [
+      "#minecraft:planks",
+      null,
+      null,
+      "#minecraft:planks",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "result": {
+      "item": "minecraft:stick",
+      "count": 4
+    },
+    "verified": false,
+    "source": "seed entry written from memory - NOT yet verified; replace via import:vanilla",
+    "notes": "Two planks stacked vertically make four sticks. Also craftable in the 2x2 inventory grid."
+  },
+  {
+    "id": "crafting_table",
+    "name": "Crafting Table",
+    "category": "building",
+    "type": "shaped",
+    "grid": [
+      "#minecraft:planks",
+      "#minecraft:planks",
+      null,
+      "#minecraft:planks",
+      "#minecraft:planks",
+      null,
+      null,
+      null,
+      null
+    ],
+    "result": {
+      "item": "minecraft:crafting_table",
+      "count": 1
+    },
+    "verified": false,
+    "source": "seed entry written from memory - NOT yet verified; replace via import:vanilla",
+    "notes": "Four planks in a square. Also craftable in the 2x2 inventory grid."
+  },
+  {
+    "id": "chest",
+    "name": "Chest",
+    "category": "misc",
+    "type": "shaped",
+    "grid": [
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      null,
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "#minecraft:planks"
+    ],
+    "result": {
+      "item": "minecraft:chest",
+      "count": 1
+    },
+    "verified": false,
+    "source": "seed entry written from memory - NOT yet verified; replace via import:vanilla",
+    "notes": "Eight planks around an empty centre."
+  },
+  {
+    "id": "furnace",
+    "name": "Furnace",
+    "category": "misc",
+    "type": "shaped",
+    "grid": [
+      "minecraft:cobblestone",
+      "minecraft:cobblestone",
+      "minecraft:cobblestone",
+      "minecraft:cobblestone",
+      null,
+      "minecraft:cobblestone",
+      "minecraft:cobblestone",
+      "minecraft:cobblestone",
+      "minecraft:cobblestone"
+    ],
+    "result": {
+      "item": "minecraft:furnace",
+      "count": 1
+    },
+    "verified": false,
+    "source": "seed entry written from memory - NOT yet verified; replace via import:vanilla",
+    "notes": "Eight cobblestone around an empty centre."
+  },
+  {
+    "id": "wooden_pickaxe",
+    "name": "Wooden Pickaxe",
+    "category": "equipment",
+    "type": "shaped",
+    "grid": [
+      "#minecraft:planks",
+      "#minecraft:planks",
+      "#minecraft:planks",
+      null,
+      "minecraft:stick",
+      null,
+      null,
+      "minecraft:stick",
+      null
+    ],
+    "result": {
+      "item": "minecraft:wooden_pickaxe",
+      "count": 1
+    },
+    "verified": false,
+    "source": "seed entry written from memory - NOT yet verified; replace via import:vanilla",
+    "notes": "Three material items across the top, two sticks as the handle."
+  },
+  {
+    "id": "diamond_pickaxe",
+    "name": "Diamond Pickaxe",
+    "category": "equipment",
+    "type": "shaped",
+    "grid": [
+      "minecraft:diamond",
+      "minecraft:diamond",
+      "minecraft:diamond",
+      null,
+      "minecraft:stick",
+      null,
+      null,
+      "minecraft:stick",
+      null
+    ],
+    "result": {
+      "item": "minecraft:diamond_pickaxe",
+      "count": 1
+    },
+    "verified": false,
+    "source": "seed entry written from memory - NOT yet verified; replace via import:vanilla",
+    "notes": "Same pickaxe shape as the wooden one, with diamonds."
+  },
+  {
+    "id": "bread",
+    "name": "Bread",
+    "category": "misc",
+    "type": "shaped",
+    "grid": [
+      null,
+      null,
+      null,
+      "minecraft:wheat",
+      "minecraft:wheat",
+      "minecraft:wheat",
+      null,
+      null,
+      null
+    ],
+    "result": {
+      "item": "minecraft:bread",
+      "count": 1
+    },
+    "verified": false,
+    "source": "seed entry written from memory - NOT yet verified; replace via import:vanilla",
+    "notes": "Three wheat in a horizontal row."
+  }
+]
